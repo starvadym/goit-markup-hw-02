@@ -41,19 +41,30 @@ body {
 .site-nav {
   list-style-type: none;
 }
-
-.site-nav a {
+/* Базовый стиль ссылок */
+.site-nav .nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   text-decoration: none;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+/* Стили ссылок при наведении */
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
   color: var(--static-color);
+  text-decoration: none;
+}
+/* Подсветка ссылки текущей страницы */
+.nav-link.primary {
+  color: var(--static-color);
+  text-decoration: none;
+}
+.nav-link.secondary {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 /* Меню контактов */
 .header-contacts,
@@ -139,21 +150,15 @@ body {
 }
 /* Преимущества */
 /* Стили текста заголовков и абзацев */
-.advantages > h3 {
-  width: 270px;
-  height: 16px;
+.advantages h3 {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.advantages > p {
-  width: 270px;
-  height: 75px;
-  font-family: Roboto;
-  font-style: normal;
+.advantages p {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
