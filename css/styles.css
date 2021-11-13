@@ -37,6 +37,7 @@ body {
 .studio {
   color: #ffffff;
 }
+/* Меню навигации */
 .site-nav {
   list-style-type: none;
 }
@@ -54,7 +55,7 @@ body {
 .site-nav a:focus {
   color: var(--static-color);
 }
-
+/* Меню контактов */
 .header-contacts,
 .footer-contacts {
   list-style: none;
@@ -85,6 +86,7 @@ body {
 .footer-contacts a:focus {
   color: var(--accent-color);
 }
+/* Слоган студии */
 .slogan {
   width: 1600px;
   height: 600px;
@@ -113,6 +115,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
 }
+
+/* Кнопка заказать работу */
 .btn-type {
   width: 200px;
   height: 50px;
@@ -129,9 +133,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+/* Преимущества студии */
 .advantages ul {
   list-style-type: none;
 }
+/* Преимущества */
+/* Стили текста заголовков и абзацев */
 .advantages > h3 {
   width: 270px;
   height: 16px;
@@ -153,6 +160,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* Чем мы занимаемся */
 .activity ul {
   list-style-type: none;
 }
@@ -165,6 +173,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+/* Наша команда */
 .team-photos {
   list-style-type: none;
 }
@@ -199,6 +208,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* Стиль футера */
 .footer-style {
   width: 1600px;
   height: 252px;
@@ -206,6 +216,7 @@ body {
   top: 2097px;
   background: #2f303a;
 }
+/* Стиль текста адреса */
 .addrss-line {
   font-style: normal;
   font-weight: normal;
@@ -309,7 +320,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/* Проекты студии */
 .projects {
   list-style-type: none;
 }
